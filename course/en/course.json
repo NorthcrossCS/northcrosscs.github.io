@@ -1,0 +1,277 @@
+{
+  "title": "Design thinking across the curriculum",
+  "displayTitle": "Design thinking across the curriculum",
+  "body": "",
+  "description": "",
+  "_latestTrackingId": 139,
+  "_language": "en",
+  "_multilanguage": [],
+  "_buttons": {
+    "_submit": {
+      "buttonText": "Submit",
+      "ariaLabel": "Submit"
+    },
+    "_reset": {
+      "buttonText": "Reset",
+      "ariaLabel": "Reset"
+    },
+    "_showCorrectAnswer": {
+      "buttonText": "Show correct answer",
+      "ariaLabel": "Show correct answer"
+    },
+    "_hideCorrectAnswer": {
+      "buttonText": "Hide correct answer",
+      "ariaLabel": "Hide correct answer"
+    },
+    "_showFeedback": {
+      "buttonText": "Show feedback",
+      "ariaLabel": "Show feedback"
+    },
+    "remainingAttemptsText": "remaining attempts",
+    "remainingAttemptText": "final attempt",
+    "disabledAriaLabel": "This button is disabled at the moment"
+  },
+  "_classes": "",
+  "_lockType": null,
+  "_id": "course",
+  "_type": "course",
+  "_start": {
+    "_isEnabled": false,
+    "_startIds": [],
+    "_force": false,
+    "_isMenuDisabled": false
+  },
+  "_globals": {
+    "_accessibility": {
+      "_accessibilityToggleTextOn": "Turn accessibility on?",
+      "_accessibilityToggleTextOff": "Turn accessibility off?",
+      "skipNavigationText": "Skip navigation",
+      "_accessibilityInstructions": {
+        "touch": "Usage instructions. Use swipe left for next. Use swipe right for previous. Use a double tab to select. Use a two finger slide up to go to the top of the page.",
+        "notouch": "Usage instructions. Use tab for next. Use shift tab for previous. Use enter to select. Use escape to go to the top of the page.",
+        "ipad": "Usage instructions for touchscreens. Use swipe left for next. Use swipe right for previous. Use a double tab to select. Use a two finger slide up to go to the top of the page. Usage instructions for keyboard access. Use left for next. Use right for previous. Use up and down together to select."
+      },
+      "_ariaLabels": {
+        "navigation": "Resource navigation bar",
+        "skipNavigation": "Skip navigation",
+        "home": "Home",
+        "menuLoaded": "Menu loaded",
+        "menu": "Menu",
+        "menuItem": "Menu item",
+        "menuViewButton": "Select here to enter",
+        "page": "Page",
+        "pageLoaded": "Page loaded",
+        "previous": "Back",
+        "navigationBack": "Navigate back",
+        "navigationDrawer": "Open course resources and search",
+        "closeResources": "Close resources",
+        "drawerBack": "Back to drawer",
+        "drawer": "Side drawer",
+        "closeDrawer": "Close drawer",
+        "closePopup": "Close popup",
+        "next": "Next",
+        "done": "Done",
+        "complete": "Complete",
+        "incomplete": "Incomplete",
+        "correct": "Correct",
+        "incorrect": "Incorrect",
+        "locked": "Locked",
+        "accessibilityToggleButton": "By selecting this button you can set whether accessibility is turned on or off",
+        "feedbackPopUp": "Popup opened",
+        "visited": "Visited",
+        "menuBack": "Back to menu",
+        "menuIndicatorHeading": "Menu item heading ",
+        "exit": "Exit"
+      }
+    },
+    "_components": {
+      "_text": {
+        "ariaRegion": ""
+      },
+      "_narrative": {
+        "ariaRegion": "This component displays an image gallery with accompanying text. Use the next and back navigation controls to work through the narrative."
+      },
+      "_flipcard": {
+        "ariaRegion": "This component is a flipcard comprised of flippable cards containing display image. Select the front face image to flip to the back face of these card to display associated text."
+      },
+      "_accordion": {
+        "ariaRegion": "Accordion. Select each button to expand the content."
+      },
+      "_media": {
+        "ariaRegion": "Media player{{#any _transcript._inlineTranscript _transcript._externalTranscript}} and transcript{{/any}}.",
+        "skipToTranscript": "Skip to transcript"
+      },
+      "_graphic": {
+        "ariaRegion": ""
+      },
+      "_mcq": {
+        "ariaRegion": "This is a multiple choice question. Once you have selected an option, select the submit button below"
+      },
+      "_slider": {
+        "ariaRegion": "Slider. Respond to the question by selecting a value on the scale and then submit.",
+        "labelStart": "Start of the scale",
+        "labelEnd": "End of the scale"
+      },
+      "_matching": {
+        "ariaRegion": "This question component requires you to select the matching answer from a drop down list below. When you have selected your answers select the submit button."
+      },
+      "_fillInTheBlanks": {
+        "ariaRegion": "This is a fill in the blanks question. Once you have finished selecting options or entering text, select the submit button below."
+      }
+    },
+    "_extensions": {
+      "_confirmExit": {
+        "confirmExitButtonLabel": "Exit resource",
+        "confirmExitTitle": "Warning",
+        "confirmExitBody": "Are you sure you want to exit and close this resource?",
+        "confirmExitYes": "Yes",
+        "confirmExitNo": "No"
+      },
+      "_languagePicker": {
+        "navigationBarLabel": "Select course language"
+      },
+      "_resources": {
+        "resources": "Additional resources."
+      },
+      "_avatar": {
+        "noName": "Please enter a name.",
+        "nameTooLong": "That name is too long. Please enter a shorter one.",
+        "invalidChars": "Your name appears to contain invalid characters. Please try again."
+      }
+    },
+    "_menu": {
+      "_hotspotMenu": {
+        "ariaRegion": "Menu",
+        "durationLabel": "Duration:",
+        "menuItem": "Menu item.",
+        "menuEnd": "You have reached the end of the menu."
+      }
+    }
+  },
+  "metadata": {
+    "parentCourseIds": [
+      "5c805d1bec7dc50e140bb027",
+      "5c8078c374b6ec1c21d3f50c",
+      "5c983cd8db6c22483decf6b3",
+      "5c997791a5f13b15658ebbb1",
+      "5c9b4d3f75e12a156b2521a4",
+      "5cc8f839c4bf431f608d99c2",
+      "5cc98839fe653e122a6b058f",
+      "5cf5abdab3d9b16c9c5ad3c1",
+      "5cf5b5ba6ff7477406576108",
+      "5cf5b82cb3d9b16c9c5ad3ef",
+      "5d704f7e7e56807a747e27bd"
+    ]
+  },
+  "_menu": {
+    "_hotspotMenu": {
+      "_menuInstructionText": "Select the * hotspots to learn about design thinking.",
+      "_menuInstructionTextMobile": "Select the * hotspots to learn about design thinking.",
+      "_items": []
+    }
+  },
+  "_bookmarking": {
+    "_isEnabled": true,
+    "_level": "block",
+    "_showPrompt": true,
+    "title": "Bookmarking",
+    "body": "Bookmarking",
+    "_buttons": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "_pageFooterNavigation": {
+    "_isEnabled": true,
+    "_displayIcons": true,
+    "nextButtonText": "Next",
+    "prevButtonText": "Previous",
+    "homeButtonText": "Home",
+    "upButtonText": "Up",
+    "_displayOptions": "scrollToBottom",
+    "_hideHomeButton": false,
+    "_hideUpButton": false,
+    "_hidePrevButton": false,
+    "_hideNextButton": false,
+    "_addTransitionToFooter": false
+  },
+  "_search": {
+    "_isEnabled": true,
+    "_drawerOrder": 0,
+    "_matchOn": {
+      "_contentWordBeginsPhraseWord": false,
+      "_contentWordContainsPhraseWord": false,
+      "_contentWordEqualsPhraseWord": true,
+      "_phraseWordBeginsContentWord": true
+    },
+    "_previewWords": 10,
+    "_previewCharacters": 30,
+    "_showFoundWords": true,
+    "_showHighlights": true,
+    "_ignoreWords": "a,an,and,are,as,at,be,by,for,from,has,he,in,is,it,its,of,on,that,the,to,was,were,will,wish",
+    "_minimumWordLength": 2,
+    "_frequencyImportance": 5,
+    "title": "Search",
+    "description": "Enter search criteria",
+    "placeholder": "",
+    "noResultsMessage": "No results found",
+    "awaitingResultsMessage": "Formulating results..."
+  },
+  "_resources": {
+    "_isEnabled": true,
+    "_drawerOrder": 0,
+    "title": "Resources",
+    "description": "Click here to view resources for this course",
+    "_filterButtons": {
+      "all": "All",
+      "document": "Documents",
+      "media": "Media",
+      "link": "Links"
+    },
+    "_filterAria": {
+      "allAria": "View all resources",
+      "documentAria": "View document resources",
+      "mediaAria": "View media resources",
+      "linkAria": "View resource links"
+    },
+    "_resourcesItems": [
+      {
+        "_type": "link",
+        "_forceDownload": false,
+        "title": "Design folio",
+        "filename": "",
+        "description": "",
+        "_link": "https://docs.google.com/presentation/d/1riWdXBRu5ug9DQ1ib2tBIvDy8jBnSCNsYUvmJPLwtY4/template/preview"
+      }
+    ]
+  },
+  "_avatar": {
+    "_isEnabled": true,
+    "_canChangeAvatar": false,
+    "_useAvatarToDisplayFeedback": true,
+    "_defaultAvatarPosition": "bottom-right",
+    "_usernameOptions": "None",
+    "_avatars": [
+      {
+        "src": "course/assets/540da3debedd9a9b925882dd821c6f0409d467ef.png"
+      }
+    ],
+    "_classes": "",
+    "instruction": "Hi there! Welcome to 'Design thinking across the curriculum'.",
+    "_buttons": {
+      "_start": {
+        "buttonText": "Let's get started!",
+        "ariaLabel": "Let's get started!"
+      },
+      "_change": {
+        "buttonText": "Change",
+        "ariaLabel": "Change"
+      },
+      "_cancel": {
+        "buttonText": "Cancel",
+        "ariaLabel": "Cancel"
+      }
+    },
+    "_globalMessages": []
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "_defaultLanguage": "en",
+  "_defaultDirection": "ltr",
+  "_questionWeight": 1,
+  "_generateSourcemap": false,
+  "_forceRouteLocking": false,
+  "_id": "5dce5deb534d6d1276d8dd80",
+  "_courseId": "5dce5dea534d6d1276d8dbf2",
+  "_drawer": {
+    "_showEasing": "easeOutQuart",
+    "_hideEasing": "easeInQuart",
+    "_duration": 400
+  },
+  "_accessibility": {
+    "_isEnabled": true,
+    "_isDisabledOnTouchDevices": false,
+    "_shouldSupportLegacyBrowsers": true,
+    "_isTextProcessorEnabled": true,
+    "_isSkipNavigationEnabled": true
+  },
+  "screenSize": {
+    "small": 519,
+    "medium": 759,
+    "large": 1024
+  },
+  "_completionCriteria": {
+    "_requireContentCompleted": false,
+    "_requireAssessmentCompleted": false
+  },
+  "__v": 0,
+  "_googleAnalytics": {
+    "_isEnabled": true,
+    "_identifier": "UA-157294564-1",
+    "_useUserTracking": false,
+    "_customUserEndpoint": "",
+    "_customUserAttribute": "",
+    "_customGoogleAnalyticsDimension": "",
+    "_useTextLabels": true,
+    "_componentBlacklist": "blank,graphic",
+    "_coreEvents": {
+      "Adapt": {
+        "router:menu": true,
+        "router:page": true,
+        "questionView:recordInteraction": true,
+        "assessments:complete": true,
+        "tracking:complete": true
+      },
+      "contentObjects": {
+        "change:_isComplete": true
+      },
+      "articles": {
+        "change:_isComplete": true
+      },
+      "blocks": {
+        "change:_isComplete": false
+      },
+      "components": {
+        "change:_isComplete": true
+      }
+    },
+    "_pluginEvents": {
+      "clickExternalUrl": true,
+      "clickResource": true,
+      "media": {
+        "download": true,
+        "ended": true,
+        "pause": true,
+        "play": true,
+        "share": true
+      }
+    }
+  },
+  "_spoor": {
+    "_isEnabled": true,
+    "_tracking": {
+      "_shouldSubmitScore": false,
+      "_shouldStoreResponses": true,
+      "_shouldRecordInteractions": true
+    },
+    "_reporting": {
+      "_onTrackingCriteriaMet": "completed",
+      "_onAssessmentFailure": "incomplete",
+      "_resetStatusOnLanguageChange": false
+    },
+    "_advancedSettings": {
+      "_showDebugWindow": false,
+      "_commitOnStatusChange": true,
+      "_timedCommitFrequency": 10,
+      "_maxCommitRetries": 5,
+      "_commitRetryDelay": 2000,
+      "_suppressErrors": false,
+      "_commitOnVisibilityChangeHidden": true,
+      "_manifestIdentifier": "adapt_manifest"
+    }
+  },
+  "_languagePicker": {
+    "_isEnabled": false,
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "_showOnCourseLoad": true,
+    "_languagePickerIconClass": "icon-language-2",
+    "_classes": "",
+    "_languages": [],
+    "_accessibility": {
+      "accessibilityToggleTextOn": "Turn accessibility on?",
+      "accessibilityToggleTextOff": "Turn accessibility off?",
+      "_accessibilityInstructions": {
+        "touch": "Usage instructions. Use swipe right for next. Use swipe left for previous. Use a double tap to select. Use a two finger slide up to go to the top of the page.",
+        "notouch": "Usage instructions. Use tab for next. Use shift tab for previous. Use enter to select. Use escape to go to the top of the page.",
+        "ipad": "Usage instructions for touchscreens. Use swipe right for next. Use swipe left for previous. Use a double tap to select. Use a two finger slide up to go to the top of the page. Usage instructions for keyboard access. Use right for next. Use left for previous. Use up and down together to select."
+      },
+      "_ariaLabels": {
+        "navigation": "A short description of the course navigation bar."
+      }
+    }
+  },
+  "build": {
+    "includes": [
+      "5b8e42542773c357d1d4c2e0-5dce5dea534d6d1276d8dbf2",
+      "adapt-contrib-pageFooterNavigation",
+      "adapt-confirmExit",
+      "adapt-contrib-bookmarking",
+      "adapt-contrib-languagePicker",
+      "adapt-contrib-resources",
+      "adapt-contrib-ios-frameset",
+      "adapt-contrib-spoor",
+      "adapt-contrib-avatar",
+      "adapt-search",
+      "adapt-contrib-tutor",
+      "adapt-google-analytics",
+      "adapt-contrib-text",
+      "adapt-contrib-flipcard",
+      "adapt-component-fillInTheBlanks",
+      "adapt-contrib-responsiveIframe",
+      "adapt-contrib-blank",
+      "adapt-contrib-graphic",
+      "adapt-contrib-slider",
+      "adapt-contrib-narrative",
+      "adapt-contrib-accordion",
+      "adapt-contrib-media",
+      "adapt-contrib-mcq",
+      "adapt-contrib-matching",
+      "adapt-vimeo",
+      "adapt-youtube"
+    ]
+  }
+}
