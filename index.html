@@ -25,19 +25,18 @@
         var adblockMessage = document.querySelector('.adblock-message');
         var wrapper = document.querySelector('#wrapper');
 
-        // Hide the adblock message and show the wrapper content
-        function showWrapper() {
+        // Check if the user has already seen the adblock message
+        var hasSeenMessage = localStorage.getItem('hasSeenAdblockMessage');
+
+        // If the user has not seen the message, show it and set the flag
+        if (!hasSeenMessage) {
+          adblockMessage.style.display = 'block';
+          localStorage.setItem('hasSeenAdblockMessage', 'true');
+        } else {
+          // If the user has seen the message, hide it and show the wrapper content
           adblockMessage.style.display = 'none';
           wrapper.style.display = 'block';
         }
-
-        // Check if the wrapper content has finished loading (you can modify this as needed)
-        setTimeout(showWrapper, 3000); // Show wrapper content after 3 seconds
-
-        // Optionally, you can add event listeners to specific user actions to trigger showing the wrapper
-        // Example: Clicking a button
-        var continueButton = document.getElementById('continue-button');
-        continueButton.addEventListener('click', showWrapper);
       });
     </script>
   </head>
@@ -48,7 +47,7 @@
         <!-- Menu / page render here -->
         <button id="continue-button">Continue</button>
       </div>
-      <div class="adblock-message">
+      <div class="adblock-message" style="display: none;">
         <p>Please disable your ad blocker to access this website.</p>
       </div>
     </div>
