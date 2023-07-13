@@ -20,15 +20,36 @@
         text-align: center;
       }
     </style>
+    <script>
+      window.addEventListener('DOMContentLoaded', function () {
+        var adblockMessage = document.querySelector('.adblock-message');
+        var wrapper = document.querySelector('#wrapper');
+
+        // Hide the adblock message and show the wrapper content
+        function showWrapper() {
+          adblockMessage.style.display = 'none';
+          wrapper.style.display = 'block';
+        }
+
+        // Check if the wrapper content has finished loading (you can modify this as needed)
+        setTimeout(showWrapper, 3000); // Show wrapper content after 3 seconds
+
+        // Optionally, you can add event listeners to specific user actions to trigger showing the wrapper
+        // Example: Clicking a button
+        var continueButton = document.getElementById('continue-button');
+        continueButton.addEventListener('click', showWrapper);
+      });
+    </script>
   </head>
 
   <body>
     <div id="app">
-      <div id="wrapper">
-        <div class="adblock-message">
-          <p>Please disable your ad blocker to access this website.</p>
-        </div>
+      <div id="wrapper" style="display: none;">
         <!-- Menu / page render here -->
+        <button id="continue-button">Continue</button>
+      </div>
+      <div class="adblock-message">
+        <p>Please disable your ad blocker to access this website.</p>
       </div>
     </div>
   </body>
