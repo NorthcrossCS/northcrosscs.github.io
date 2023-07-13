@@ -12,44 +12,14 @@
     <link href="adapt.css" type="text/css" rel="stylesheet">
     <script src="libraries/modernizr.js" type="text/javascript"></script>
     <script src="adapt/js/scriptLoader.js" type="text/javascript"></script>
-    <style>
-      .adblock-message {
-        background-color: #f8d7da;
-        color: #721c24;
-        padding: 10px;
-        text-align: center;
-      }
-    </style>
-    <script>
-      window.addEventListener('DOMContentLoaded', function () {
-        var adblockMessage = document.querySelector('.adblock-message');
-        var wrapper = document.querySelector('#wrapper');
-
-        // Check if the user has already seen the adblock message
-        var hasSeenMessage = localStorage.getItem('hasSeenAdblockMessage');
-
-        // If the user has not seen the message, show it and set the flag
-        if (!hasSeenMessage) {
-          adblockMessage.style.display = 'block';
-          localStorage.setItem('hasSeenAdblockMessage', 'true');
-        } else {
-          // If the user has seen the message, hide it and show the wrapper content
-          adblockMessage.style.display = 'none';
-          wrapper.style.display = 'block';
-        }
-      });
-    </script>
   </head>
 
   <body>
     <div id="app">
-      <div id="wrapper" style="display: none;">
+      <div id="wrapper">
         <!-- Menu / page render here -->
-        <button id="continue-button">Continue</button>
-      </div>
-      <div class="adblock-message" style="display: none;">
-        <p>Please disable your ad blocker to access this website.</p>
       </div>
     </div>
   </body>
+
 </html>
